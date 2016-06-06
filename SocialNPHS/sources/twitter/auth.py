@@ -7,7 +7,7 @@ import os
 
 import tweepy
 
-localdir = os.path.dirname(os.path.abspath(__file__))
+localdir = os.getcwd()
 
 
 def _get_secret_stuffs():
